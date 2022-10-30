@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-sunnyside-landing-page-with-css-grid-and-flexbox-r6mh3Y8HJI)
+- Live Site URL: [Add live site URL here](https://sunnyside-landing-page-teal.vercel.app)
 
 ## My process
 
