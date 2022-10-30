@@ -28,6 +28,7 @@ body {
     min-width: 375px;
     max-width: 1440px;
     grid-template-columns: minmax(375px ,1fr);
+    grid-template-rows: repeat(4, -webkit-max-content);
     grid-template-rows: repeat(4, max-content);
     grid-template-areas:
     "header"
@@ -220,7 +221,8 @@ main {
 .services figure > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .text.serv-1,.text.serv-2, .text.serv-3, .text.serv-4 {
@@ -343,7 +345,8 @@ aside {
 
 .gal-item {
     width: 50%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .page-footer {
@@ -368,7 +371,8 @@ aside {
     color: var(--white)
 }
 .footer-logo {
-    filter: brightness(50%) sepia(1) hue-rotate(129deg) saturate(250%) brightness(50%);
+    -webkit-filter: brightness(50%) sepia(1) hue-rotate(129deg) saturate(250%) brightness(50%);
+            filter: brightness(50%) sepia(1) hue-rotate(129deg) saturate(250%) brightness(50%);
     padding:4rem 0rem 2rem 0rem;
     width: 12rem;
 }
@@ -379,11 +383,13 @@ aside {
 .social-img  { 
     cursor:pointer;
     padding: 0rem 0.5rem;
-    filter: hue-rotate(3deg) saturate(113%) brightness(92%) ; 
+    -webkit-filter: hue-rotate(3deg) saturate(113%) brightness(92%) ;
+            filter: hue-rotate(3deg) saturate(113%) brightness(92%) ; 
 } 
 
 .social-img:hover {
-    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
     
 }
 
