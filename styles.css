@@ -95,7 +95,8 @@ header {
     background-position: center;
     color: var(--white);
     min-height: 750px;
-    width: auto;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     position:relative;
@@ -200,6 +201,8 @@ main {
     grid-template-rows: repeat(3, 1fr);
     text-align: center;
     min-width: 375px;
+    width: 100%;
+    margin:auto;
     
 }
 
@@ -302,6 +305,8 @@ main {
 
 aside {
     min-width: 375px;
+    width: 100%;
+    margin: auto;
 }
 
 .clients {
@@ -354,6 +359,8 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: auto;
 }
 
 
